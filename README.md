@@ -48,9 +48,9 @@ inherit = "all" #Inherit full env so tools like `claude` can see your auth/confi
 ignore_default_excludes = true
 ```
 
-Notes
-•	approval_policy = "never" is what makes this loop fully hands-off.
-•	sandbox_mode = "workspace-write" + network_access = true enables downloading artifacts during cycles.
+Notes  
+•	approval_policy = "never" is what makes this loop fully hands-off.  
+•	sandbox_mode = "workspace-write" + network_access = true enables downloading artifacts during cycles.  
 
 ### 2) Claude Code (optional but recommended)
 
@@ -75,9 +75,9 @@ Repository layout
 └── (scripts / utilities generated during cycles)
 
 ```
-•	reports/INDEX.md is compact memory to avoid duplicates.
-•	data_lake/externals/ stores web-backed artifacts (links, tables, small downloads).
-•	code_lake/ stores generated scripts/tools.
+•	reports/INDEX.md is compact memory to avoid duplicates.  
+•	data_lake/externals/ stores web-backed artifacts (links, tables, small downloads).  
+•	code_lake/ stores generated scripts/tools.  
 
 
 ⸻
