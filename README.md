@@ -95,13 +95,13 @@ mkdir -p reports data_lake/externals code_lake
 3.	Run 6 cycles:
 ```
 
-CYCLES=6 START=1 PLAN=GLM_SAE.md ./discover.sh
+CYCLES=6 START=1 PLAN=plan.md ./discover.sh
 
 ```
 4.	Run 6 more cycles without colliding with prior runs:
 ```
 
-CYCLES=6 START=7 SKIP_EXISTING=1 PLAN=GLM_SAE.md ./discover.sh
+CYCLES=6 START=7 SKIP_EXISTING=1 PLAN=plan.md ./discover.sh
 
 ```
 Auto-start at the next unused cycle number (optional)
@@ -109,7 +109,7 @@ Auto-start at the next unused cycle number (optional)
 If you add AUTO_START logic to your script, you can do:
 ```
 
-AUTO_START=1 CYCLES=6 PLAN=GLM_SAE.md ./discover.sh
+AUTO_START=1 CYCLES=6 PLAN=plan.md ./discover.sh
 
 ```
 ⸻
