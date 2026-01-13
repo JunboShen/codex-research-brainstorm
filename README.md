@@ -1,4 +1,4 @@
-# Repurposing Codex for Research Brainstorming
+# Repurposing Codex as Research Brainstorming Agent
 
 A minimalist but efficient long-running “research brainstorming loop” that uses **Codex CLI** as the main agent and **Claude Code** as an optional coding specialist.
 
